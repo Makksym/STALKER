@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(23, 135, 155);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: cyan;
+    font-size: 48px;
+    margin-left: 100px;
+    font-family: "Bungee Spice", без зарубок;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main{
+    background-color: rgb(21, 41, 48);
+    padding: 15px;
+}
+
+.post{
+    background-color: rgb(29, 66, 114);
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.pic img{
+    width: 150px;
+    height: 250px;
+    margin-right: 15px;
+}
+
+
+.text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    height: 60px;
+    background-color: darkmagenta;
+    font-size: 20px;
+    color: rgb(83, 65, 83);
+    text-align: center;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    list-style: none;
+    margin-right: 20px;
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.carousel img {
+    height: 900px;
+}
+
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vide0{
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.h2{
+    font-size: 20px;
+}
+.Contacts img{
+    width: 50px;
+}
+.block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.block p{
+    margin-left: 20px;
+}
+
